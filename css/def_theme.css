@@ -1,0 +1,37 @@
+/**** start Default theme ****/
+
+/* active link & nav */
+
+.navbar {border-bottom: 3px solid #e41817}
+
+/* background color */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.tool-box .color ul li,
+.tool-box .check {background-color: #e41817}
+
+/* color */
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.about h3 span,
+.features .feat span.glyphicon,
+.testimonial span,
+.our-team h1,
+.footer h3,
+.footer .copyright span.s2 {color: #e41817}
+
+/* border */
+
+.tool-box .color,
+.testimonial .carousel-indicators li.active,
+.prices .price-box:hover p {border: 2px solid #e41817}
+
+ 
+
+/**** end Default theme ****/

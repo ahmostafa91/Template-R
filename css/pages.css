@@ -1,0 +1,44 @@
+/* start about as */
+
+.bc-holder {
+    
+    background-color: #f5f5f5
+}
+
+.breadcrumb {
+    
+    padding: 68px 0 3px;
+    margin-bottom: 0
+}
+
+.aboutus {
+    
+    padding: 40px 0 0
+}
+
+.aboutus h1 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px;
+    font-size: 45px
+}
+
+.aboutus hr {width: 70%}
+
+.aboutus .features h3 {font-family: 'Raleway', sans-serif}
+
+.CEO h2 {
+    
+    font-family: 'Raleway', sans-serif;
+    padding-top: 45px
+}
+
+.CEO .lead {line-height: 1.7}
+
+.CEO .btn-primary {
+    width: 100px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 30px
+}
+
+/* end about as */

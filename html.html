@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- IE meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- first mobile meta -->
+        <title>Bootstrap Design</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/css.css" />
+        <link rel="stylesheet" type="text/css" href="css/def_color.css" />
+        <link rel="stylesheet" type="text/css" href="css/hover.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+        <!-- [if it IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <!-- js library used to make IE know the html 5 elements -->
+    </head>
+    <body>
+        
+        <!-- start tool box -->
+        
+        <section class="tool-box">
+            <i class="fa fa-gear fa-3x check hvr-glow"></i>
+            <div class="color">
+                <h4>Color Option</h4>
+                <ul class="list-unstyled">
+                    <li class="hvr-pulse" data-value="css/def_color.css"></li>
+                    <li class="hvr-pulse" data-value="css/other_color.css"></li>
+                    <li class="hvr-pulse" data-value="css/other_color%202.css"></li>
+                    <li class="hvr-pulse" data-value="css/other_color%203.css"></li>
+                    <li class="hvr-pulse" data-value="css/other_color%204.css"></li>
+                </ul>
+            </div>
+            
+        </section>
+        
+        <!-- end tool box -->
+        
+        <!-- start navbar -->
+        
+                <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <!-- button for mobile (in xs screen) -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <!-- brand name link -->
+              <a class="navbar-brand hvr-pop" href="#">BRA<span>ND</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+                <ul class="nav navbar-nav navbar-right">
+                
+                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                
+                <li><a href="about.html">About Me</a></li>
+                    
+                <li><a href="#">FAQ</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Programming</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Desktop</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Responsive Design</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Graphic Design</a></li>
+                  </ul>
+                    
+                    <li><a href="#">Contact Me</a></li>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        
+        <!-- end navbar -->
+    
+        <!-- start carousel -->
+        
+        <div id="myslide" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators hidden-xs">
+            <li data-target="#myslide" data-slide-to="0" class="active"></li>
+            <li data-target="#myslide" data-slide-to="1"></li>
+            <li data-target="#myslide" data-slide-to="2"></li>
+            <li data-target="#myslide" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/1.jpg" style="width: 100%" alt="1">
+              <div class="carousel-caption">
+                <h1>Graphic Design</h1>
+                <p>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 and 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+                <div class="btn btn-primary">Read More</div>
+                <div class="btn btn-danger">Download</div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="images/2.jpg" style="width: 100%" alt="2">
+              <div class="carousel-caption">
+                <h1>Web Design</h1>
+                <p>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 and 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+                <div class="btn btn-primary">Read More</div>
+                <div class="btn btn-danger">Download</div>
+              </div>
+            </div>
+              
+            <div class="item">
+              <img src="images/3.jpg" style="width: 100%" alt="3">
+              <div class="carousel-caption">
+                <h1>Programming</h1>
+                <p>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 and 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+                <div class="btn btn-primary">Read More</div>
+                <div class="btn btn-danger">Download</div>
+              </div>
+            </div>
+              
+            <div class="item">
+              <img src="images/4.jpg" style="width: 100%" alt="4">
+              <div class="carousel-caption">
+                <h1>Responsive Design</h1>
+                <p>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 and 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+                <div class="btn btn-primary">Read More</div>
+                <div class="btn btn-danger">Download</div>
+              </div>
+            </div>
+              
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+            
+          <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>    
+    
+        <!-- end carousel -->
+    
+        <!-- start about section -->
+    
+            <section class="about text-center wow zoomIn" data-wow-duration="2s" data-wow-offset="300">
+                
+                <div class="container">
+                    <h1 class="hidden-xs">My New Template <span>BRAND</span></h1>
+                    <h3 class="visible-xs">My New Template <span>BRAND</span></h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet,</p>
+                </div>
+                
+            </section>
+            
+        <!-- end about section -->
+    
+        <!-- start section features -->
+    
+            <section class="features text-center wow zoomInUp" data-wow-duration="2s" data-wow-offset="300">
+                
+                <div class="container">
+                    <h2 class="h1">Features</h2>
+                    <div class="row">
+                        <!-- feat 1 -->
+                        <div class="col-lg-3 col-md-6">
+                            
+                            <div class="feat wow rollIn" data-wow-duration="2s" data-wow-offset="350">
+                                <span class="glyphicon glyphicon-resize-full"></span>
+                                <h3>Feature 1</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet</p>
+                            </div>
+                            
+                        </div>
+                        <!-- feat 2 -->
+                        <div class="col-lg-3 col-md-6">
+                            
+                            <div class="feat wow rollIn" data-wow-duration="2s" data-wow-offset="350">
+                                <span class="glyphicon glyphicon-resize-horizontal"></span>
+                                <h3>Feature 2</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet</p>
+                            </div>
+                            
+                        </div>
+                        <!-- feat 3 -->
+                        <div class="col-lg-3 col-md-6">
+                            
+                            <div class="feat wow rollIn" data-wow-duration="2s" data-wow-offset="350">
+                                <span class="glyphicon glyphicon-resize-vertical"></span>
+                                <h3>Feature 3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet</p>
+                            </div>
+                            
+                        </div>
+                        <!-- feat 4 -->
+                        <div class="col-lg-3 col-md-6">
+                            
+                            <div class="feat wow rollIn" data-wow-duration="2s" data-wow-offset="350">
+                                <span class="glyphicon glyphicon-fullscreen"></span>
+                                <h3>Feature 4</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet</p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </section>    
+    
+        <!-- end section features -->
+    
+        
+        <!-- start price table -->
+    
+        <section class="prices text-center wow zoomInDown" data-wow-duration="2s" data-wow-offset="300">
+        
+         <div class="container">
+            
+             <h2 class="h1">Our Prices</h2>
+             
+             <div class="row">
+                 <!-- price 1 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="350">
+                        <h3 class="text-primary">Graphic Design</h3>
+                        <p class="center-block">$40</p>
+                        <ul class="list-unstyled">
+                          <li>Low Quality</li>
+                          <li>Small Design</li>
+                          <li>No Psd File</li>
+                          <li>Open Source</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div> 
+                </div>
+                 <!-- price 2 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="350">
+                        <h3 class="text-success">Responsive Design</h3>
+                        <p class="center-block">$80</p>
+                        <ul class="list-unstyled">
+                          <li>Mid Quality</li>
+                          <li>Mid Design</li>
+                          <li>No Psd File</li>
+                          <li>Open Source</li>
+                        </ul>
+                        <a href="#" class="btn btn-success">Order Now</a>
+                    </div> 
+                </div>
+                 <!-- price 3 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box wow fadeInDown" data-wow-duration="2s" data-wow-offset="350">
+                        <h3 class="text-info">Web Design</h3>
+                        <p class="center-block">$120</p>
+                        <ul class="list-unstyled">
+                          <li>High Quality</li>
+                          <li>Mid Design</li>
+                          <li>No Psd File</li>
+                          <li>Not Open Source</li>
+                        </ul>
+                        <a href="#" class="btn btn-info">Order Now</a>
+                    </div> 
+                </div>
+                 <!-- price 4 -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="price-box wow fadeInUp" data-wow-duration="2s" data-wow-offset="350">
+                        <h3 class="text-danger">Javascript Canvas</h3>
+                        <p class="center-block">$160</p>
+                        <ul class="list-unstyled">
+                          <li>Extremely High Quality </li>
+                          <li>High Design</li>
+                          <li>Plugin File</li>
+                          <li>Not Open Source</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger">Order Now</a>
+                    </div> 
+                </div>                 
+                 
+             </div>
+             
+         </div>
+            
+        </section>    
+    
+        <!-- end price table -->
+    
+        <!-- start our team -->
+    
+        <section class="our-team text-center">
+            
+            <div class="team">
+                <div class="container">
+                    <h2 class="h1">Our Team</h2>
+                        <div class="row">
+                            <!-- team 1 -->
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="per1 wow pulse" data-wow-duration="1s" data-wow-offset="350">
+                                    <img class="img-circle" src="images/team/tt1%20(1).jpg" alt="t1"/>
+                                    <h3>Team 1</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit</p>
+                                    <i class="fa fa-google-plus-square fa-2x"></i>
+                                    <i class="fa fa-facebook-official fa-2x"></i>
+                                    <i class="fa fa-linkedin-square fa-2x"></i>
+                                    <i class="fa fa-youtube-square fa-2x"></i>
+                                </div>
+                            </div>
+                            <!-- team 2 -->
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="per2 wow pulse" data-wow-duration="1s" data-wow-offset="350">
+                                    <img class="img-circle" src="images/team/tt1%20(2).png" alt="t2"/>
+                                    <h3>Team 2</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit</p>
+                                    <i class="fa fa-google-plus-square fa-2x"></i>
+                                    <i class="fa fa-facebook-official fa-2x"></i>
+                                    <i class="fa fa-linkedin-square fa-2x"></i>
+                                    <i class="fa fa-youtube-square fa-2x"></i>
+                                </div>
+                            </div>
+                            <!-- team 3 -->
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="per3 wow pulse" data-wow-duration="1s" data-wow-offset="350">
+                                    <img class="img-circle" src="images/team/tt1%20(3).png" alt="t3"/>
+                                    <h3>Team 3</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit</p>
+                                    <i class="fa fa-google-plus-square fa-2x"></i>
+                                    <i class="fa fa-facebook-official fa-2x"></i>
+                                    <i class="fa fa-linkedin-square fa-2x"></i>
+                                    <i class="fa fa-youtube-square fa-2x"></i>
+                                </div>
+                            </div>
+                            <!-- team 4 -->
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="per4 wow pulse" data-wow-duration="1s" data-wow-offset="350">
+                                    <img class="img-circle" src="images/team/tt1%20(4).png" alt="t4"/>
+                                    <h3>Team 4</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit</p>
+                                    <i class="fa fa-google-plus-square fa-2x"></i>
+                                    <i class="fa fa-facebook-official fa-2x"></i>
+                                    <i class="fa fa-linkedin-square fa-2x"></i>
+                                    <i class="fa fa-youtube-square fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+        </section>
+    
+        <!-- end our team -->
+    
+        <!-- start Subscribe -->
+    
+        <section class="subscribe text-center">
+        
+            <div class="container wow fadeInUp" data-wow-duration="2s" data-wow-offset="300">
+                <h2 class="h1">Keep In Touch</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor</p>
+                <form class="form-inline">
+                    <input class="form-control input-lg" type="text" placeholder="Write Your Email">
+                    <button class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i>Subscribe</button>
+                </form>
+            </div>
+        
+        </section>
+    
+        <!-- end Subscribe -->
+    
+        <!-- start Statistics -->
+        <section class="stat text-center">
+            <div class="data">
+                <div class="container">
+                    <h2 class="h1">Our Statistics</h2>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-users fa-5x"></i>
+                                <p>10,000</p>
+                                <span>Our Users</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-comments fa-5x"></i>
+                                <p>150,000</p>
+                                <span>Our Comments</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-suitcase fa-5x"></i>
+                                <p>1,500</p>
+                                <span>Our Projects</span>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="stats">
+                                <i class="fa fa-support fa-5x"></i>
+                                <p>850,000</p>
+                                <span>Our Customer Service</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Statistics -->
+    
+        <!-- start skills -->
+    
+    
+        <section class="skills">
+        
+        <div class="container">
+            <h2 class="text-center h1">Our Skills</h2>
+            <div class="row">
+                <!-- start progress -->
+                <div class="col-md-5">
+                   <div class="sk-prog">
+                    <!-- progress 1 -->
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                            HTML5 / CSS3
+                        </div>   
+                    </div>
+                    <!-- progress 2 -->
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                            Javascript / JQuery
+                        </div>   
+                    </div>
+                    <!-- progress 3 -->
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            PHP / MySQL
+                        </div>
+                    </div>
+                    <!-- progress 4 -->
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                            Wordpress
+                        </div>   
+                    </div>
+                       
+                   </div> 
+                </div>
+                <!-- end progress -->
+                
+                <!-- start team info -->
+                <div class="col-md-6 col-md-offset-1">
+                    <div class="te-info">
+                        <h3>About Team</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor</p>
+                        <button type="button" class="btn btn-danger">
+                            Contact With Customer Service
+                        </button>
+                    </div>
+                </div>
+                <!-- end team info -->
+            </div>
+        </div>
+            
+        </section>
+    
+        <!-- end skills -->
+    
+        <!-- start contact us -->
+        <section class="contact text-center">
+            <div class="f">
+                <div class="container">
+                    <div class="row">
+                        <div class="wow bounceInDown" data-wow-duration="1s" data-wow-offset="300">
+                            <i class="fa fa-paper-plane fa-4x"><h2 class="h1">Contact Us</h2></i>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor</p>
+                        </div>
+                        <!-- start contact form -->
+                        <form role="form">
+                            <div class="col-md-6 wow bounceInLeft" data-wow-duration="1.3s" data-wow-offset="330">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="User Name">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Email">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Phone">
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6 wow bounceInRight" data-wow-duration="1.3s" data-wow-offset="330">
+                                <div class="form-group">
+                                    <textarea class="form-control input-lg" placeholder="Type Your Massage"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-danger btn-lg btn-block">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- end contact form -->
+                </div>
+            </div>
+        </section>
+        <!-- end contact us -->
+    
+        <!-- start our client -->
+        <section class="client text-center">
+            <div class="container">
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.5s" src="images/client/1%20(1).png" alt="" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="1s" src="images/client/1%20(2).png" alt="" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="1.5s" src="images/client/1%20(3).png" alt="" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="2s" src="images/client/1%20(4).png" alt="" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="2.5s" src="images/client/1%20(5).png" alt="" />
+                        </li>
+                        <li class="col-md-2 col-xs-4">
+                            <img class="img-responsive center-block wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="3s" src="images/client/1%20(7).png" alt="" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- end our client -->
+    
+        <!-- start footer -->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Site Map</h3>
+                        <ul class="list-unstyled three-columns">
+                            <li>Home</li>
+                            <li>About Me</li>
+                            <li>Services</li>
+                            <li>Contact Me</li>
+                            <li>Programming</li>
+                            <li>Web Design</li>
+                            <li>Responsive</li>
+                            <li>Graphic Design</li>
+                        </ul>
+                        <ul class="list-unstyled social-list">
+                            <li><img src="images/media/1%20(1).png" alt=""/></li>
+                            <li><img src="images/media/1%20(2).png" alt=""/></li>
+                            <li><img src="images/media/1%20(3).png" alt=""/></li>
+                            <li><img src="images/media/1%20(4).png" alt=""/></li>
+                            <li><img src="images/media/1%20(5).png" alt=""/></li>
+                            <li><img src="images/media/1%20(6).png" alt=""/></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <h3>Latest Articles</h3>
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" alt="" src="images/articles/1.png"/>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Programming</h4>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor
+                            </div>
+                        </div>
+                        
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" alt="" src="images/articles/1.png"/>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Web Design</h4>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor
+                            </div>
+                        </div>
+                        
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" alt="" src="images/articles/1.png"/>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Graphic Design</h4>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <h3>Our Works</h3>
+                        <img class="img-thumbnail" src="images/articles/w3.jpg" alt=""/>
+                        <img class="img-thumbnail"  src="images/articles/w3.jpg" alt=""/>
+                        <img class="img-thumbnail"  src="images/articles/w3.jpg" alt=""/>
+                        <img class="img-thumbnail"  src="images/articles/w3.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                Copyright &copy; 2017 <span class="s1">BRA</span><span class="s2">ED</span>
+            </div>
+        </section>
+        <!-- end footer -->
+        
+        <!-- start loading -->
+        <section class="overlay">
+            <div class="sk-fading-circle">
+              <div class="sk-circle1 sk-circle"></div>
+              <div class="sk-circle2 sk-circle"></div>
+              <div class="sk-circle3 sk-circle"></div>
+              <div class="sk-circle4 sk-circle"></div>
+              <div class="sk-circle5 sk-circle"></div>
+              <div class="sk-circle6 sk-circle"></div>
+              <div class="sk-circle7 sk-circle"></div>
+              <div class="sk-circle8 sk-circle"></div>
+              <div class="sk-circle9 sk-circle"></div>
+              <div class="sk-circle10 sk-circle"></div>
+              <div class="sk-circle11 sk-circle"></div>
+              <div class="sk-circle12 sk-circle"></div>
+            </div>
+        </section>
+        <!-- end loading -->
+    
+        <!-- start scroll to top -->
+        <div id="scroll">
+           <i class="fa fa-arrow-up fa-3x arrow"></i> 
+        </div>
+        <!-- end scroll to top -->
+        <script src="js/jq/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/js.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+    </body>
+</html>
